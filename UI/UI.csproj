@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6B792667-E21C-4032-A417-5FC33C43E7F3}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UI</RootNamespace>
+    <AssemblyName>UI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Accessing_field_value_by_document_object.aspx" />
+    <Content Include="Accessing_field_value_by_document_object.html" />
+    <Content Include="add.aspx" />
+    <Content Include="Add_Class.aspx" />
+    <Content Include="Alert_Messagebox.aspx" />
+    <Content Include="Alert_Messagebox.html" />
+    <Content Include="Arithmetic_Operator.aspx" />
+    <Content Include="Arrays.aspx" />
+    <Content Include="arrowFunction.js" />
+    <Content Include="ComparisonOperators.aspx" />
+    <Content Include="Confirm_Messagebox.aspx" />
+    <Content Include="Date.aspx" />
+    <Content Include="DD_list.aspx" />
+    <Content Include="DefaultParameters.js" />
+    <Content Include="document_getElementById.aspx" />
+    <Content Include="do_while.aspx" />
+    <Content Include="Error_handling.aspx" />
+    <Content Include="ExponentOperator.js" />
+    <Content Include="External.aspx" />
+    <Content Include="For.aspx" />
+    <Content Include="form_validation.aspx" />
+    <Content Include="Function.aspx" />
+    <Content Include="if_else.aspx" />
+    <Content Include="index.js" />
+    <Content Include="innerHTML.aspx" />
+    <Content Include="In_line.aspx" />
+    <Content Include="js\test.js" />
+    <Content Include="MultilineString.js" />
+    <Content Include="Prompt_Messagebox.aspx" />
+    <Content Include="Script_position_in_page.aspx" />
+    <Content Include="String_funtions.aspx" />
+    <Content Include="styles.css" />
+    <Content Include="switch.aspx" />
+    <Content Include="TemplateString.js" />
+    <Content Include="Ternary_operator.aspx" />
+    <Content Include="Validation.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+    <Content Include="while.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Accessing_field_value_by_document_object.aspx.cs">
+      <DependentUpon>Accessing_field_value_by_document_object.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Accessing_field_value_by_document_object.aspx.designer.cs">
+      <DependentUpon>Accessing_field_value_by_document_object.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="add.aspx.cs">
+      <DependentUpon>add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="add.aspx.designer.cs">
+      <DependentUpon>add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Class.aspx.cs">
+      <DependentUpon>Add_Class.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_Class.aspx.designer.cs">
+      <DependentUpon>Add_Class.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Alert_Messagebox.aspx.cs">
+      <DependentUpon>Alert_Messagebox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Alert_Messagebox.aspx.designer.cs">
+      <DependentUpon>Alert_Messagebox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Arithmetic_Operator.aspx.cs">
+      <DependentUpon>Arithmetic_Operator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arithmetic_Operator.aspx.designer.cs">
+      <DependentUpon>Arithmetic_Operator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Arrays.aspx.cs">
+      <DependentUpon>Arrays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Arrays.aspx.designer.cs">
+      <DependentUpon>Arrays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComparisonOperators.aspx.cs">
+      <DependentUpon>ComparisonOperators.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComparisonOperators.aspx.designer.cs">
+      <DependentUpon>ComparisonOperators.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Confirm_Messagebox.aspx.cs">
+      <DependentUpon>Confirm_Messagebox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Confirm_Messagebox.aspx.designer.cs">
+      <DependentUpon>Confirm_Messagebox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Date.aspx.cs">
+      <DependentUpon>Date.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Date.aspx.designer.cs">
+      <DependentUpon>Date.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DD_list.aspx.cs">
+      <DependentUpon>DD_list.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DD_list.aspx.designer.cs">
+      <DependentUpon>DD_list.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="document_getElementById.aspx.cs">
+      <DependentUpon>document_getElementById.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="document_getElementById.aspx.designer.cs">
+      <DependentUpon>document_getElementById.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="do_while.aspx.cs">
+      <DependentUpon>do_while.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="do_while.aspx.designer.cs">
+      <DependentUpon>do_while.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Error_handling.aspx.cs">
+      <DependentUpon>Error_handling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error_handling.aspx.designer.cs">
+      <DependentUpon>Error_handling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="External.aspx.cs">
+      <DependentUpon>External.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="External.aspx.designer.cs">
+      <DependentUpon>External.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="For.aspx.cs">
+      <DependentUpon>For.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="For.aspx.designer.cs">
+      <DependentUpon>For.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="form_validation.aspx.cs">
+      <DependentUpon>form_validation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="form_validation.aspx.designer.cs">
+      <DependentUpon>form_validation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Function.aspx.cs">
+      <DependentUpon>Function.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Function.aspx.designer.cs">
+      <DependentUpon>Function.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="if_else.aspx.cs">
+      <DependentUpon>if_else.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="if_else.aspx.designer.cs">
+      <DependentUpon>if_else.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="innerHTML.aspx.cs">
+      <DependentUpon>innerHTML.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="innerHTML.aspx.designer.cs">
+      <DependentUpon>innerHTML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="In_line.aspx.cs">
+      <DependentUpon>In_line.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="In_line.aspx.designer.cs">
+      <DependentUpon>In_line.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Prompt_Messagebox.aspx.cs">
+      <DependentUpon>Prompt_Messagebox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Prompt_Messagebox.aspx.designer.cs">
+      <DependentUpon>Prompt_Messagebox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script_position_in_page.aspx.cs">
+      <DependentUpon>Script_position_in_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Script_position_in_page.aspx.designer.cs">
+      <DependentUpon>Script_position_in_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="String_funtions.aspx.cs">
+      <DependentUpon>String_funtions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="String_funtions.aspx.designer.cs">
+      <DependentUpon>String_funtions.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="switch.aspx.cs">
+      <DependentUpon>switch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="switch.aspx.designer.cs">
+      <DependentUpon>switch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Ternary_operator.aspx.cs">
+      <DependentUpon>Ternary_operator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Ternary_operator.aspx.designer.cs">
+      <DependentUpon>Ternary_operator.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI.Master.cs">
+      <DependentUpon>UI.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI.Master.designer.cs">
+      <DependentUpon>UI.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Validation.aspx.cs">
+      <DependentUpon>Validation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Validation.aspx.designer.cs">
+      <DependentUpon>Validation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="while.aspx.cs">
+      <DependentUpon>while.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="while.aspx.designer.cs">
+      <DependentUpon>while.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="UI.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1097</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
